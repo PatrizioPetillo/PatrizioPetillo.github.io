@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Spedizione</title>
+</head>
+<body>
+
+  <table>
+  <form id="delivery" autocomplete="on">
+
+    <tr>
+      <td>
+        <label for="name">Nome</label>
+        <input type="text" name="name" placeholder="Nome" id="name" required>   
+      </td>
+    </tr>
+    <tr>
+      <td>        
+        <label for="lastname">Cognome</label>
+        <input type="text" name="lastname" placeholder="Cognome" id="lastname" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="address">Indirizzo</label>
+        <input type="text" name="address" placeholder="Indirizzo" id="lastname" required>
+      </td>
+    </tr>
+    <tr>
+      <td>        
+        <label for="po">Civico</label>
+        <input type="number" name="po" placeholder="N° Civico" id="po">
+      </td>
+    </tr>
+    <tr>
+      <td>        
+        <label for="zipcode">CAP</label>
+        <input type="number" name="zipcode" id="zipcode">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="country">Nazione</label>
+        <input type="text" name="country" placeholder="Italia" id="country" required>
+      </td>
+    </tr>
+    <tr>
+      <td>        
+        <label for="district">Provincia</label>
+        <select name="district" id="district" required>
+          <option value="MI">Milano</option>      
+          <option value="RM">Roma</option>      
+          <option value="TO">Torino</option>      
+          <option value="FI">Firenze</option>      
+          <option value="NA">Napoli</option>      
+          <option value="OTHER">Altro</option>      
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>        
+        <label for="city">Città</label>
+        <input type="text" name="city" placeholder="Fiumicino" id="city" required>
+      </td>
+    </tr>
+    <tr>
+      <td>        
+        <label for="cellphone">Cellulare</label>
+        <input type="tel" name="cellphone" placeholder="Phone Number" id="cellphone">
+      </td>
+    </tr>
+    <tr>
+      <td>        
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="tua@email.com" id="email">
+      </td>
+    </tr>
+    <tr>
+      <td>        
+        <label for="textarea">Note</label>
+        <textarea name="note" id="note" cols="30" rows="10" placeholder="Note"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>        
+        <input type="submit" value="Invia">
+      </td>
+    </tr>
+    
+  </form>
+  </table>  
+
+  <form id="delivery" autocomplete="on">
+    <label for="name">Nome</label>
+    <input type="text" name="name" placeholder="Nome" id="name" required>
+
+    <label for="lastname">Cognome</label>
+    <input type="text" name="lastname" placeholder="Cognome" id="lastname" required>
+    
+    <label for="address">Indirizzo</label>
+    <input type="text" name="address" placeholder="Indirizzo" id="lastname" required>
+
+    <label for="po">Civico</label>
+    <input type="number" name="po" placeholder="N° Civico" id="po">
+
+    <label for="zipcode">CAP</label>
+    <input type="number" name="zipcode" id="zipcode">
+
+    <label for="country">Nazione</label>
+    <input type="text" name="country" placeholder="Italia" id="country" required>
+    
+    <label for="district">Provincia</label>
+    <select name="district" id="district" required>
+      <option value="MI">Milano</option>      
+      <option value="RM">Roma</option>      
+      <option value="TO">Torino</option>      
+      <option value="FI">Firenze</option>      
+      <option value="NA">Napoli</option>      
+      <option value="OTHER">Altro</option>      
+    </select>
+    
+    <label for="city">Città</label>
+    <input type="text" name="city" placeholder="Fiumicino" id="city" required>
+
+    <label for="cellphone">Cellulare</label>
+    <input type="tel" name="cellphone" placeholder="Phone Number" id="cellphone">
+
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="tua@email.com" id="email">
+
+    <label for="textarea">Note</label>
+    <textarea name="note" id="note" cols="30" rows="10" placeholder="Note"></textarea>
+
+    <input type="submit" value="Invia">
+    
+  </form>
+
+  <button type="reset" form="delivery">Reset</button>
+
+</body>
+</html>
